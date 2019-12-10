@@ -1,0 +1,14 @@
+[30-Oct-2019 15:39:39 UTC] PHP Warning:  include(footer.php): failed to open stream: No such file or directory in /home/deladata/public_html/delaindustrier/omoss.php on line 1
+[30-Oct-2019 15:39:39 UTC] PHP Warning:  include(footer.php): failed to open stream: No such file or directory in /home/deladata/public_html/delaindustrier/omoss.php on line 1
+[30-Oct-2019 15:39:39 UTC] PHP Warning:  include(): Failed opening 'footer.php' for inclusion (include_path='.:/opt/cpanel/ea-php71/root/usr/share/pear') in /home/deladata/public_html/delaindustrier/omoss.php on line 1
+[01-Nov-2019 16:51:24 UTC] PHP Parse error:  syntax error, unexpected 'crumbs' (T_STRING), expecting ',' or ';' in /home/deladata/public_html/delaindustrier/omoss.php on line 34
+[01-Nov-2019 16:51:26 UTC] PHP Parse error:  syntax error, unexpected 'crumbs' (T_STRING), expecting ',' or ';' in /home/deladata/public_html/delaindustrier/omoss.php on line 34
+[01-Nov-2019 16:51:27 UTC] PHP Parse error:  syntax error, unexpected 'crumbs' (T_STRING), expecting ',' or ';' in /home/deladata/public_html/delaindustrier/omoss.php on line 34
+[01-Nov-2019 16:51:27 UTC] PHP Parse error:  syntax error, unexpected 'crumbs' (T_STRING), expecting ',' or ';' in /home/deladata/public_html/delaindustrier/omoss.php on line 34
+[01-Nov-2019 16:51:27 UTC] PHP Parse error:  syntax error, unexpected 'crumbs' (T_STRING), expecting ',' or ';' in /home/deladata/public_html/delaindustrier/omoss.php on line 34
+[01-Nov-2019 16:51:28 UTC] PHP Parse error:  syntax error, unexpected 'crumbs' (T_STRING), expecting ',' or ';' in /home/deladata/public_html/delaindustrier/omoss.php on line 34
+[01-Nov-2019 16:51:28 UTC] PHP Parse error:  syntax error, unexpected 'crumbs' (T_STRING), expecting ',' or ';' in /home/deladata/public_html/delaindustrier/omoss.php on line 34
+[01-Nov-2019 16:51:29 UTC] PHP Parse error:  syntax error, unexpected 'crumbs' (T_STRING), expecting ',' or ';' in /home/deladata/public_html/delaindustrier/omoss.php on line 34
+[01-Nov-2019 16:51:29 UTC] PHP Parse error:  syntax error, unexpected 'crumbs' (T_STRING), expecting ',' or ';' in /home/deladata/public_html/delaindustrier/omoss.php on line 34
+[01-Nov-2019 16:51:29 UTC] PHP Parse error:  syntax error, unexpected 'crumbs' (T_STRING), expecting ',' or ';' in /home/deladata/public_html/delaindustrier/omoss.php on line 34
+[01-Nov-2019 16:51:30 UTC] PHP Parse error:  syntax error, unexpected 'crumbs' (T_STRING), expecting ',' or ';' in /home/deladata/public_html/delaindustrier/omoss.php on line 34

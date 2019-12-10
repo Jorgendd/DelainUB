@@ -11,41 +11,6 @@
     padding:0px;
     font-family: 'Roboto Condensed', arial;
 }
-.nav{
-
-justify-content: space-around;
-align-items: center;
-min-height:8vh;
-background-color:#202020 ;
-width:100%;
-border-bottom: solid 1px white;
-
-
-}
-
-ul{
-justify-content: space-around;
-float:left;
-display:flex;
-}
-
-ul li{
-list-style-type: none;
-}
-
-ul a{
-color:white;
-text-decoration: none;
-letter-spacing:1px;
-font-size: 20px;
-display:inline-block;
-padding:3px;
-margin:5px;
-font-weight: bold;
-}
-ul a:hover{
-border-bottom: solid 3px #e7ad07;
-}
 .section_contact{
     width:50%;
     margin-left:auto;
@@ -60,21 +25,12 @@ border-bottom: solid 3px #e7ad07;
 @media screen and (max-width: 800px) {
   .section_contact{
       width:90%;
-
+  
 }
 }
 </style>
 <body>
-  <div class="nav">
-    <ul>
-     <!-- <li>  <a href=""><img src="dela_industrierimg.png" style="height:100px;width:100px;"></a></li>  -->
-      <li><a href="index.html">Hjem</a></li<br>
-      <li><a href="omoss.html">Om oss</a></li><br>
-      <li><a href="vaaretjenester.html">Tjenester</a></li><br>
-      <li><a href="kontaktoss.html">Kontakt oss</a></li><br>
-
-    </ul>
-  </div><br><br>
+<?php include 'navbar.php';?>
 <div class="section_contact">
 <h2>Kontakt oss:</h2
 <p>Dela industrier`s kontaktinformasjon:</p><br><br>

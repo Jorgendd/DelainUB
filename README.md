@@ -1,5 +1,5 @@
 # DelainUB
-Dela industrier UB - Nyeste oppdatering 06.12.19
+Dela industrier UB - Nyeste oppdatering 10.12.19
 Last ned mappen "dela industrier nyyyyyyeste"
 
 Hva er nytt?

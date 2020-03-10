@@ -1,9 +1,12 @@
 # DelainUB
-Dela industrier UB - Nyeste oppdatering 10.12.19
-Last ned mappen "dela industrier nyyyyyyeste"
+Dela industrier UB - Nyeste oppdatert 10.03.20
+Last ned mappen "dela industrier v.3"
 
 Hva er nytt?
 
-* Filene kan nå redigeres live
-* Kompabiliteten er rettet slik at mobilgrensesnittet er bedre på mobiler
+*Nytt og bedre utseende <br>
+*Støttes av Telefon, PC og nettbrett.
+*Oppdatert "kontakt oss"-siden med nytt utseende
+<br><br>
+-Resten av sidene oppdateres etterhvert
 

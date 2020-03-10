@@ -6,42 +6,7 @@ body{
   padding:0;
 }
 
-.nav{
 
-	justify-content: space-around;
-	align-items: center;
-	min-height:8vh;
-  background-color: ;
-  width:100%;
-  border-bottom: solid 1px #313131;
-
-
-}
-
-ul{
-	justify-content: space-around;
-	float:left;
-  display:flex;
-}
-
-ul li{
-	list-style-type: none;
-}
-
-ul a{
-color:white;
-text-decoration: none;
-letter-spacing:1px;
-font-size: 20px;
-display:inline-block;
-padding:3px;
-margin:5px;
-font-weight: bold;
-}
-ul a:hover{
-	border-bottom: solid 3px #e7ad07;
-}
-/* Hide the link that should open and close the topnav on small screens */
 .topnav .icon {
   display: none;
 }
@@ -71,19 +36,14 @@ ul a:hover{
   position: absolute;
   top: 70%;
   left: 50%;
-  transform: translate(-50%, -50%);
   padding:10px;
   font-size:20px;
   font-weight:bold;
   border:none;
   border-radius:2px;
-  background-color: red; /* For browsers that do not support gradients */
-  background-image: linear-gradient(orange, orange, orange);
 
 }
-.centered_button:hover{
- opacity:0.9;
-}
+
 .container_aboutus{
   background-color:#313131;
    width:90%;
@@ -139,44 +99,4 @@ background-color:#313131;
 }
 
 
-}
-/* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
-@media screen and (max-width: 600px) {
-  body{
-    font-size: 16px;
-  }
-  ul{
-    margin:0;
-  }
-  .nav a:not(:first-child) {display: none;}
-  .nav a.icon {
-    float: right;
-    display: block;
-  }
-  ul{   float:right;
-
-  }
-  li a{
-      width:100%;
-      float:left;
-  }
-  .centered_button{
-      top:30%;
-
-  }
-}
-
-/* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
-@media screen and (max-width: 600px) {
-  .nav.responsive {position:;}
-  .nav.responsive a.icon {
-    position: absolute;
-    right: 0;
-    top: 0;
-  }
-  .nav.responsive a {
-    float: none;
-    display: block;
-    text-align: left;
-  }
 }

@@ -7,6 +7,11 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
 
     <link rel="stylesheet" type="text/css" href="main.css">
 
@@ -20,7 +25,7 @@
 
   <style>
 
-  body,.navbar{
+  body{
 
       margin:0;
 
@@ -35,82 +40,11 @@
       margin:0;
 
       padding:0;
+  
 
   }
 
 
-
-
-
-      .navbar{
-
-
-
-  	justify-content: space-around;
-
-  	align-items: center;
-
-  	min-height:8vh;
-
-    background-color:#202020 ;
-
-    width:100%;
-
-    border-bottom: solid 1px white;
-
-
-
-
-
-  }
-
-
-
-  ul{
-
-  	justify-content: space-around;
-
-  	float:left;
-
-    display:flex;
-
-  }
-
-
-
-  ul li{
-
-  	list-style-type: none;
-
-  }
-
-
-
-  ul a{
-
-  color:white;
-
-  text-decoration: none;
-
-  letter-spacing:1px;
-
-  font-size: 20px;
-
-  display:inline-block;
-
-  padding:3px;
-
-  margin:5px;
-
-  font-weight: bold;
-
-  }
-
-  ul a:hover{
-
-  	border-bottom: solid 3px #e7ad07;
-
-  }
 
 
 
@@ -174,19 +108,7 @@
 
     border:none;
 
-    border-radius:2px;
 
-    background-color: red; /* For browsers that do not support gradients */
-
-    background-image: linear-gradient(orange, orange, orange);
-
-
-
-  }
-
-  .centered_button:hover{
-
-   opacity:0.9;
 
   }
 
@@ -302,140 +224,36 @@
 
   }
 
-  /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
-
-  @media screen and (max-width: 600px) {
-
-    body{
-
-      font-size: 16px;
-
-    }
-
-    ul{
-
-      margin:0;
-
-    }
-
-    .nav a:not(:first-child) {display: none;}
-
-    .nav a.icon {
-
-      float: right;
-
-      display: block;
-
-    }
-
-    ul{   float:right;
-
-
-
-    }
-
-    li a{
-
-        width:100%;
-
-        float:left;
-
-    }
-
-    .centered_button{
-
-        top:30%;
-
-
-
-    }
-
-  }
-
-
-
-  /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
-
-  @media screen and (max-width: 600px) {
-
-    .nav .responsive {position:;}
-
-    .nav .responsive a.icon {
-
-      position: absolute;
-
-      right: 0;
-
-      top: 0;
-
-    }
-
-    .nav .responsive a {
-
-      float: none;
-
-      display: block;
-
-      text-align: left;
-
-    }
-
-  }
-
-  /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
-  @media screen and (max-width: 600px) {
-    .nav ul li a:not(:first-child) {display: none;}
-    .nav ul li a.icon {
-      float: right;
-      display: block;
-    }
-  }
-
-  /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
-  @media screen and (max-width: 600px) {
-    .nav.responsive {position: relative;}
-    .nav.responsive a.icon {
-      position: absolute;
-      right: 0;
-      top: 0;
-    }
-    .nav .responsive a {
-      float: none;
-      display: block;
-      text-align: left;
-    }
-  }
-
   </style>
 
   <body>
 
-<div class="nav">
-
-  <ul>
-
-   <!-- <li>  <a href=""><img src="dela_industrierimg.png" style="height:100px;width:100px;"></a></li>  -->
-   <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-    <i class="fa fa-bars"></i>
-  </a>
-
-    <li><a href="index.html">Hjem</a></li<br>
-
-    <li><a href="omoss.html">Om oss</a></li><br>
-
-    <li><a href="vaaretjenester.html">Tjenester</a></li><br>
-
-    <li><a href="kontaktoss.html">Kontakt oss</a></li><br>
-
-
-
-  </ul>
-
-</div><br><br>
+    <nav class="navbar navbar-dark bg-dark">
+      <a class="navbar-brand" href="index.html">Dela Industrier</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarText">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="index.html">Hjem <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="vartprodukt.html">Vårt produkt</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="omoss.html">Om oss</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="kontaktoss.html">Kontakt oss</a>
+      </li>
+    </ul>
+  </div>
+    </nav>
 
 <div class="frontimageholder">
 
-<img src="frontimageindustries.png" alt="industry" style="">
+<img src="frontimageindustries.png" alt="industry">
 
 <div class="centered_text">
 
@@ -443,7 +261,7 @@ Dela Industrier UB
 
 </div>
 
-<a href="omoss.html"><button class="centered_button">Les mer om oss</button></a>
+<a href="vartprodukt.html" class="centered_button"><button type="button" class="btn btn-info">Les mer om oss</button></a>
 
 </div><br><br>
 
@@ -455,7 +273,7 @@ Dela Industrier UB
 
 <p>Vårt produkt og vår idè: </p>
 
-<p>Vår foretningside er et produkt som kan smelter bort is og snø<br> fra trappen om vinteren.<br>
+<p>Vår foretningside er et produkt som kan smelte bort is og snø<br> fra trappen om vinteren.<br>
 
 
 
@@ -475,10 +293,22 @@ Dela Industrier UB
 
 <br><br><br><br>
 
-
-
-
-
+<center>
+<div class="jumbotron bg-dark text-white">
+  <h1 class="display-4">Hvordan vi har jobbet for å utvikle prototypen...</h1>
+  <p class="lead">Dette er en eksempeltekst som viser fylde og er kun ment for å fylle et tomt rom der det skal være tekst</p>
+  <hr class="my-4">
+  <p>Dette er en eksempeltekst som viser fylde og er kun ment for å fylle et tomt rom der det skal være tekst</p>
+  <a class="btn btn-primary btn-lg" href="#" role="button">Les mer her</a>
+</div>
+<div class="jumbotron bg-dark text-white">
+  <h1 class="display-4">Sponsorer:</h1>
+  <p class="lead">Dela Industrier er stolt sponset av:</p>
+  <hr class="my-4">
+  <p>Bedrift 1, Bedrift 2, Bedrift 3, Bedrift 4, Bedrift 5</p>
+  <a class="btn btn-primary btn-lg" href="vartprodukt.html" role="button">Les mer her</a>
+</div>
+</center>
 
 
 
@@ -490,12 +320,13 @@ Dela Industrier UB
 <img src="mail.png">
 
 <div class="container_aboutus_txt">
+<h2>Kontakt oss:</h2>
 
 <p>Telefon: 974 01 901</p>
 
 <p>Facebook: Dela Industrier UB</p>
 
-<p>E-post: <a href="mailto:kontakt@delaindustrier.no?subject=Henvendelse">kontakt@delaindustrier.no</a>
+<p style="color:white;">E-post: <a href="mailto:kontakt@delaindustrier.no?subject=Henvendelse">kontakt@delaindustrier.no</a></p>
 
 </div>
 
@@ -504,23 +335,16 @@ Dela Industrier UB
 <p></p>
 
 <br><br><br><br><br><br>
-<footer style="background-color:#454444;color:white;text-decoration:none;list-style-type:none;">
-  <center>
-<h3>Copyright Dela Industrier UB -2019-<br></h3><br>
-<h4>Nettsted levert av <a style="text-decoration:none;list-style-type:none;color:grey;" href="https://deladata.net">Dela Data UB</a></h4><br>
-</center>
-</footer>
-<script>
-/* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
-function myFunction() {
-  var x = document.getElementById("nav");
-  if (x.className === "nav") {
-    x.className += " responsive";
-  } else {
-    x.className = "nav";
-  }
-}
-</script>
+<div class="card text-center bg-dark text-white">
+  <div class="card-body">
+    <h5 class="card-title">Følg oss på <a href="https://www.facebook.com/DELA.Industrier.UB/">Facebook</a></h5>
+    <p class="card-text">Copyright &copy; 2019-2020 Dela Industrier</p>
+    <a href="index.html" class="btn btn-secondary" style="float:right;">Til toppen ↑</a>
+  </div>
+  <div class="card-footer text-muted" style="color:white;">
+    Oppdatert 03.20 - Web-design og nettsted levert av <a href="https://deladata.net">Dela Data UB</a>
+  </div>
+</div>
   </body>
 
 </html>

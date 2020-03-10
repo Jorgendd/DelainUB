@@ -1,8 +1,15 @@
 <!DOCTYPE html>
 <html>
-<head><meta http-equiv="Content-Type" content="text/html; charset=euc-kr">
+<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Kontakt oss - Dela Industrier</title>
 <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <style>
@@ -30,13 +37,38 @@
 }
 </style>
 <body>
-<?php include 'navbar.php';?>
-<div class="section_contact">
-<h2>Kontakt oss:</h2
-<p>Dela industrier`s kontaktinformasjon:</p><br><br>
-<p><a href="https://www.facebook.com/pg/DELA-Industrier-UB-101650587938425/about/?ref=page_internal">Dela industrier på facebook</a></p>
+    <nav class="navbar navbar-dark bg-dark">
+        <a class="navbar-brand" href="index.html">Dela Industrier</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarText">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Hjem</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="vartprodukt.html">Vårt produkt</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="omoss.html">Om oss</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="kontaktoss.html">Kontakt oss<span class="sr-only">(current)</span></a>
+        </li>
+      </ul>
+    </div>
+      </nav>
 
-</div>
+
+<br><br>
+<div class="jumbotron bg-dark text-white">
+    <h1 class="display-4">Kontakt oss:</h1>
+    <p style="display: block;">Telefon:</p><br><br><br>
+    <p style="display: block;">Besøksadresse:</p><br>
+    <p></p><br><br>
+    <p class="lead"><p><a href="https://www.facebook.com/pg/DELA-Industrier-UB-101650587938425/about/?ref=page_internal">Dela industrier på facebook</a></p></p><br>
+  </div>
 
 </body>
 </html>
